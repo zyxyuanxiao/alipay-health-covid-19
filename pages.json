@@ -1,0 +1,122 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "体温登记"
+			}
+		}, {
+			"path": "pages/temperature/index",
+			"style": {
+				"navigationBarTitleText": "体温记录",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/group/index",
+			"style": {
+				"navigationBarTitleText": "群防群控"
+			}
+		}, {
+			"path": "pages/group/member",
+			"style": {
+				"navigationBarTitleText": "所有人员"
+			}
+		}, {
+			"path": "pages/group/temperature",
+			"style": {
+				"navigationBarTitleText": "体温记录",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/group/member/temperature",
+			"style": {
+				"navigationBarTitleText": "体温记录"
+			}
+		}, {
+			"path": "pages/group/member/join",
+			"style": {
+				"navigationBarTitleText": "加入群组"
+			}
+		}, {
+			"path": "pages/group/member/report",
+			"style": {
+				"navigationBarTitleText": "健康申报"
+			}
+		}, {
+			"path": "pages/group/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/group/create",
+			"style": {
+				"navigationBarTitleText": "创建群组"
+			}
+		}, {
+			"path": "pages/enter/index",
+			"style": {
+				"navigationBarTitleText": "出入登记",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/enter/enter",
+			"style": {
+				"navigationBarTitleText": "填写登记信息"
+			}
+		}, {
+			"path": "pages/group/enter",
+			"style": {
+				"navigationBarTitleText": "出入记录",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/group/member/enter",
+			"style": {
+				"navigationBarTitleText": "出入记录"
+			}
+		}
+	    ,{
+            "path" : "pages/temperature/map",
+            "style" : {
+				"navigationBarTitleText": "体温地图"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "健康申报助手",
+		"navigationBarBackgroundColor": "#007aff",
+		"backgroundColor": "#F1F1F1"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007aff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "25px",
+		"fontSize": "25px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/menu1.jpg",
+			"selectedIconPath": "static/menu1-select.jpg",
+			"text": "体温登记"
+		}, {
+			"pagePath": "pages/temperature/index",
+			"iconPath": "static/menu2.jpg",
+			"selectedIconPath": "static/menu2-select.jpg",
+			"text": "体温记录"
+		}, {
+			"pagePath": "pages/enter/index",
+			"iconPath": "static/menu3.jpg",
+			"selectedIconPath": "static/menu3-select.jpg",
+			"text": "出入登记"
+		}, {
+			"pagePath": "pages/group/index",
+			"iconPath": "static/menu4.jpg",
+			"selectedIconPath": "static/menu4-select.jpg",
+			"text": "群防群控"
+		}]
+	}
+}
